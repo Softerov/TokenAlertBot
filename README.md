@@ -1,6 +1,7 @@
 # TokenAlertBot
 
 EN
+
 This script will send you notifications via a Telegram bot at the specified intervals. These notifications will contain information about the coin you are interested in, so you don’t have to constantly monitor it on various platforms.
 
 Don't forget to specify the token for your Telegram bot, as well as change the chain to the one you need
