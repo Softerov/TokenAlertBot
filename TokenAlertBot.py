@@ -10,8 +10,8 @@ logger = logging.getLogger(__name__)
 
 logging.getLogger('httpx').setLevel(logging.WARNING)
 
-bot_token = '8379839086:AAHVx_gToweZ26YgNBuqsVwjF2MYgwl53uE'
-chain_id = 'abstract'
+bot_token = '' #УКАЖИ ТОКЕН
+chain_id = 'abstract' # УКАЖИ ГОВНОЧЕЙН, НАПРИМЕР: SOLANA / TON
 
 TOKEN_ADDRESS, UPDATE_INTERVAL = range(2)
 
@@ -221,4 +221,5 @@ def main():
     application.run_polling()
 
 if __name__ == '__main__':
+
     main()
