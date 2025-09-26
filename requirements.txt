@@ -1,0 +1,4 @@
+requests==2.32.5
+logging==0.4.9.6
+telegram==0.0.1
+asyncio==4.0.0
